@@ -4,3 +4,12 @@ All the codes in java are written within a class, and class name and file name w
 Extention for a java file is .java .
 Comments in java are written after //  and for multiline comment /* */.
 
+To print something in java we write 
+    System.out.println("Hello World");
+We can also use print here the only difference is that if we use println there would be an extra new line space and if we use print there wouldn't .
+
+**** If we use sout and then tab it would give the output line and you don't have to wirte the whole line again and again .****
+
+If we need to store something in a temporary memory then we use variables.
+Just like C language we need to specify the data type of a variable as what we are storing in that variable.
+We can assign the value a variable have to another variable.
