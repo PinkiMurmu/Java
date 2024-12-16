@@ -13,3 +13,6 @@ We can also use print here the only difference is that if we use println there w
 If we need to store something in a temporary memory then we use variables.
 Just like C language we need to specify the data type of a variable as what we are storing in that variable.
 We can assign the value a variable have to another variable.
+Java types:
+    Primitive - int, float, long int, byte (length/capacity is fixed -128 to 127)
+    Non primitive - String (length/capacity is not fixed)
