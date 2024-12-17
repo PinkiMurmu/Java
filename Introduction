@@ -16,3 +16,16 @@ We can assign the value a variable have to another variable.
 Java types:
     Primitive - int, float, long int, byte (length/capacity is fixed -128 to 127)
     Non primitive - String (length/capacity is not fixed)
+
+
+/// String///
+
+Length of a  string variable is determined by the .length() function.
+To see the character of a specific index we use .charAt() ufnction.
+To replace a character in a string we use .replace() function.  - This function won't change the original string but will reflect the changes in the new string.
+In java strings are immutable.
+We can get a part of a large string by using the .substring() function.  - Inside the parenthesis there would be a lower limit and a upper limit, the lower limit would be included but upper limit wouldn't. It would be upper limit-1.
+
+
+///Arrays///
+
