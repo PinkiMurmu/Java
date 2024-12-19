@@ -29,3 +29,7 @@ We can get a part of a large string by using the .substring() function.  - Insid
 
 ///Arrays///
 
+To declare an array we first write the data type of the array and the square bracket then the name we want to give to the array.
+Then new and the length within the square bracket and the data type of the array.
+If we try to print the array variable in java, it won't give the combination of hash code and class name. 
+If you don't initialize a variable with any value it will by default initialize itself with null value or 0 for int, false for boolean.
