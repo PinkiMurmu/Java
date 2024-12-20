@@ -29,7 +29,40 @@ We can get a part of a large string by using the .substring() function.  - Insid
 
 ///Arrays///
 
+To start with array we need to include a package Java.util.Arrays  .
+
 To declare an array we first write the data type of the array and the square bracket then the name we want to give to the array.
 Then new and the length within the square bracket and the data type of the array.
 If we try to print the array variable in java, it won't give the combination of hash code and class name. 
 If you don't initialize a variable with any value it will by default initialize itself with null value or 0 for int, false for boolean.
+
+When we are looking for the length of a string we need to put the parenthesis after the .length() like this.
+Bu when we are checking an array length we don't need to put the parenthesis, it is the array property.
+There is a class Arrays in array in which there is a function .sort() which would sort the array in ascending order.
+
+2D arrays
+initialize by the data type and two square brackets one after another.
+
+////Casting////
+
+It is to change from one form to another.
+If we try to put a int value in a double it is possible but the reverse is not possible.
+It can be of two types:
+        Implicit - If we are putting a smaller value to a bigger container.
+        Explicit - We will put the larger value to a smaller container by changing its data type as long as they are compatible. It will eliminate/truncate the after decimal numbers.
+
+We can change the value of a variable in java.
+We can make constants in java by the final keyword and after  declaring that we can't change the value of that variable.
+
+/////Operators/////
+
+There are four types of operators in java:
+    Arithmatic operator(+,-,*,/,%(Modulo))
+    Assignment operator(=,+=,-=,*=,/=,%=), Unary operator(++,-- )
+    Logical operator
+    Comparision operator
+
+There is a Math class which is used to perform any kind of mathematical concepts. Like finding the minimum or maximum numbers of given numbers.
+
+There is a random function in Math class which returns a random value between 0.0 to 1.0 in the form of long.
+The value random returns is always less than 1, so if we typecast it to int, it will always show 0.
