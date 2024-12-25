@@ -1,4 +1,4 @@
-1st line of a java code would be in which package the code we are writing .
+1st line of a java code would be the package name in which the code we are writing .
 All the codes in java are written within a class, and class name and file name would be same .
 
 Extention for a java file is .java .
