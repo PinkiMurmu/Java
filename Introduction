@@ -1,21 +1,31 @@
-1st line of a java code would be the package name in which the code we are writing .
+Java is a high level language.
+It is a portable language which can be run on any system as long as the system has JRE(Java runtime Environment).
+1st line of the code is the package name in which we are writing the code.
+After writing the java source code when the compiler gets to compile it, it would convert it to byte code(.class) which every system would understand.
+
+////Function////
+    That part of the code to which we say to perform the work.
+
+////Class////
+    It is a large entity in which we can write many function.
+Among the classes the function named main() will be executed at the very first.
 All the codes in java are written within a class, and class name and file name would be same .
 
 Extention for a java file is .java .
-Comments in java are written after //  and for multiline comment /* */.
+Comments in java single line comment is written after //  and for multiline comment /* */.
 
-To print something in java we write 
+To print something in java we write :
     System.out.println("Hello World");
-We can also use print here the only difference is that if we use println there would be an extra new line space and if we use print there wouldn't .
+We can also use print here the only difference is that if we use println there would be an extra new line space just the same as when we use \n it would give you an extra line and if we use print there wouldn't .
 
-**** If we use sout and then tab it would give the output line and you don't have to wirte the whole line again and again .****
+**** If we use [sout and then tab] it would give the output line, and you don't have to wirte the whole line again and again .****
 
 If we need to store something in a temporary memory then we use variables.
 Just like C language we need to specify the data type of a variable as what we are storing in that variable.
 We can assign the value a variable have to another variable.
-Java types:
-    Primitive - int, float, long int, byte (length/capacity is fixed -128 to 127)
-    Non primitive - String (length/capacity is not fixed)
+Java data types:
+    Primitive - int, float, long int, byte, char, boolean, double (length/capacity is fixed -128 to 127)
+    Non primitive - String, array, class, object, interface (length/capacity is not fixed)
 
 
 /// String///
@@ -26,6 +36,7 @@ To replace a character in a string we use .replace() function.  - This function 
 In java strings are immutable.
 We can get a part of a large string by using the .substring() function.  - Inside the parenthesis there would be a lower limit and a upper limit, the lower limit would be included but upper limit wouldn't. It would be upper limit-1.
 
+We can take inputs in java by scanner class for which we need to import java.util.* .
 
 ///Arrays///
 
