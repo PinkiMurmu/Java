@@ -27,6 +27,27 @@ Java data types:
     Primitive - int, float, long int, byte, char, boolean, double (length/capacity is fixed -128 to 127)
     Non primitive - String, array, class, object, interface (length/capacity is not fixed)
 
+Conditional Statements :
+    if, else, else if, switch, break
+These are the keywords . Keywords are those which have a fixed meaning in java, we cannot make it a variable name or make any other meaning of it .
+    We use the conditional statements when we need an stoppage over something .
+Break is used when we need to get out of the conditional statements . 
+Switch is used to make conditional statements also.
+
+
+Loops :
+    for loop, while loop, do while loop
+Loop is the part of the code which we need to execute more than 1 time .
+for loop syntax is:
+        for(initialization; condition; updation){}
+    - If we don't give the condition, it would turn into infinite(never ending) loop which won't stop until the memory is full . We should ignore this .
+while loop syntax is:
+        while(cond){}
+do-while loop syntax is:
+        do{statement}while(cond)
+The main difference of do-while loop over any other looping statement is that even if the condition satisfies or not it would execute at least once .
+It checks the condition after executing once .
+    We can also use loops inside loops which are called nested loops .
 
 /// String///
 
@@ -36,7 +57,13 @@ To replace a character in a string we use .replace() function.  - This function 
 In java strings are immutable.
 We can get a part of a large string by using the .substring() function.  - Inside the parenthesis there would be a lower limit and a upper limit, the lower limit would be included but upper limit wouldn't. It would be upper limit-1.
 
-We can take inputs in java by scanner class for which we need to import java.util.* .
+We can take inputs in java by scanner class for which we need to import java.util.* . It is a package where many codes are written which we would be using in our code .
+
+We can give inputs by 
+        Scanner sc = new Scanner(System.in);
+        String name = sc.next();
+        System.out.println(name);
+    - Here next() takes only the first token(word) . To print the full sentence we need to replace next() by nextLine() . There are many more .
 
 ///Arrays///
 
