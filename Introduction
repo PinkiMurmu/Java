@@ -4,7 +4,32 @@ It is a portable language which can be run on any system as long as the system h
 After writing the java source code when the compiler gets to compile it, it would convert it to byte code(.class) which every system would understand.
 
 ////Function////
-    That part of the code to which we say to perform the work.
+    That part of the code to which we call to perform the work.
+Function is the block of code which takes an input ,perform an operation and produces an output .
+The syntax of a function is as given :
+        returnType functionName( type arg1, type arg2 ..){}
+returnType can be any data type like int, string, float, or void .
+
+public and static  keywords which we generally write before the main function are objects .
+
+functionName can be anything except the keywords .
+arguments are also called inputs . 
+
+Function name are also known as identifiers and we can write it in very formats :
+        camelCase
+        snake_case
+        lowercase
+To get out of a function we need to write a return keyword at the last of the function as the return type of the function , if the function is of int type then it would return 1 .
+
+
+**** What happens in memory ? ****
+Functions inside a memory are saved as the form of stack . 
+The first function that saved(stack frame) in the memory stack is the main function .
+After that whatever function the main function will be calling will be stacked over the main function . 
+If the new function called by the main function returns some value to the main function it will be erased from the memory stack .
+After the main function returns some value it will also get erased from the memory .
+
+The main difference between functions and methods are that methods are called through objects of the class and functions are called directly .
 
 ////Class////
     It is a large entity in which we can write many function.
