@@ -92,11 +92,13 @@ We can give inputs by
 
 ///Arrays///
 
+List of items of the same type . 
+We use new to take a new space inside memory for a non-primitive data type.
 To start with array we need to include a package Java.util.Arrays  .
 
 To declare an array we first write the data type of the array and the square bracket then the name we want to give to the array.
 Then new and the length within the square bracket and the data type of the array.
-If we try to print the array variable in java, it won't give the combination of hash code and class name. 
+If we try to print the array variable in java, it will give the combination of hash code and class name. 
 If you don't initialize a variable with any value it will by default initialize itself with null value or 0 for int, false for boolean.
 
 When we are looking for the length of a string we need to put the parenthesis after the .length() like this.
