@@ -129,3 +129,15 @@ There is a Math class which is used to perform any kind of mathematical concepts
 
 There is a random function in Math class which returns a random value between 0.0 to 1.0 in the form of long.
 The value random returns is always less than 1, so if we typecast it to int, it will always show 0.
+
+
+////Time Complexity////
+-Relation between input size & Running time(operations) .
+Three types:
+    - best case
+    - average case
+    - worst case
+
+////Space Complexity////
+-It depends on how much space is a code taking in the memory . Which is how many variables are storing because of that code .
+ 
