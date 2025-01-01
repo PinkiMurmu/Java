@@ -1,4 +1,5 @@
 Java is a high level language.
+
 It is a portable language which can be run on any system as long as the system has JRE(Java runtime Environment).
 1st line of the code is the package name in which we are writing the code.
 After writing the java source code when the compiler gets to compile it, it would convert it to byte code(.class) which every system would understand.
