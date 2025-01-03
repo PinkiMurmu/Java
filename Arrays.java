@@ -11,33 +11,33 @@ public class Arrays {
         // System.out.println(marks[1]);
         // System.out.println(marks[2]);
 
-        Scanner sc = new Scanner(System.in);
-        System.out.print("Enter the size of the array : ");
-        int size = sc.nextInt();
-        int numbers[] = new int[size];
+        // Scanner sc = new Scanner(System.in);
+        // System.out.print("Enter the size of the array : ");
+        // int size = sc.nextInt();
+        // int numbers[] = new int[size];
 
-        System.out.print("Enter the elements of the array : ");
-        for (int i = 0; i<size; i++){
-            numbers[i] = sc.nextInt();
-        }
+        // System.out.print("Enter the elements of the array : ");
+        // for (int i = 0; i<size; i++){
+        //     numbers[i] = sc.nextInt();
+        // }
 
 
 
         //Check if an array is in sorted order or not
 
-        boolean isAscending = true;
-        for (int i = 0; i<numbers.length-1; i++){
-            if(numbers[i]>numbers[i+1]){
-                isAscending = false;
-            }
-        }
+        // boolean isAscending = true;
+        // for (int i = 0; i<numbers.length-1; i++){
+        //     if(numbers[i]>numbers[i+1]){
+        //         isAscending = false;
+        //     }
+        // }
 
-        if(isAscending){
-            System.out.println("The array is in ascending order.");
-        }
-        else{
-            System.out.println("The array is not in ascending order.");
-        }
+        // if(isAscending){
+        //     System.out.println("The array is in ascending order.");
+        // }
+        // else{
+        //     System.out.println("The array is not in ascending order.");
+        // }
 
 
 
@@ -78,5 +78,45 @@ public class Arrays {
         // for (int i = 0; i<size; i++){
         //     System.out.print(numbers[i]+" ");
         // }
+
+
+
+
+        // 2D Arrays
+
+
+
+        Scanner sc = new Scanner(System.in);
+        System.out.print("Enter row length : ");
+        int rows = sc.nextInt();
+        System.out.print("Enter column length : ");
+        int cols = sc.nextInt();
+
+        int[][] number = new int[rows][cols];
+        System.out.println("Enter "+rows*cols+" elements :");
+        for (int i = 0; i<rows; i++){
+            for (int j = 0; j<cols; j++){
+                number[i][j] = sc.nextInt();
+            }
+        }
+
+        // for (int i = 0; i<rows; i++){
+        //     for (int j = 0; j<cols; j++){
+        //         System.out.print(number[i][j]+" ");
+        //     }
+        //     System.out.println();
+        // }
+
+        // Search for a number x
+
+        System.out.print("Enter the element you want to search for : ");
+        int x = sc.nextInt();
+        for (int i = 0; i<rows; i++){
+            for (int j = 0; j<cols; j++){
+                if (number[i][j]==x){
+                    System.out.println("The number "+x+" is found at index ("+i+","+j+")");
+                }
+            }
+        }
     }
 }
