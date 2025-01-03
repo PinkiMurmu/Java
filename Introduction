@@ -1,6 +1,7 @@
 Java is a high level language.
 
 It is a portable language which can be run on any system as long as the system has JRE(Java runtime Environment).
+Scanner is also a non primitive data type in java .
 1st line of the code is the package name in which we are writing the code.
 After writing the java source code when the compiler gets to compile it, it would convert it to byte code(.class) which every system would understand.
 
@@ -77,11 +78,18 @@ It checks the condition after executing once .
 
 /// String///
 
+It is a non-primitive data type .
 Length of a  string variable is determined by the .length() function.
 To see the character of a specific index we use .charAt() ufnction.
 To replace a character in a string we use .replace() function.  - This function won't change the original string but will reflect the changes in the new string.
+To take input from the user we write System.in and we write sc.next() to take a input as a string and not a sentence .
+To show the whole sentence as output we write sc.nextLine() .
 In java strings are immutable.
 We can get a part of a large string by using the .substring() function.  - Inside the parenthesis there would be a lower limit and a upper limit, the lower limit would be included but upper limit wouldn't. It would be upper limit-1.
+
+Concatenation of strings is adding two distinct strings together .
+If we use any not defined string in a line then it will delete from the memory as the line execution ends .
+To do several operations on string we used some built-in methods like .length to find the string length, .charAt(i) to access the chaarcters in index i etc .
 
 We can take inputs in java by scanner class for which we need to import java.util.* . It is a package where many codes are written which we would be using in our code .
 
