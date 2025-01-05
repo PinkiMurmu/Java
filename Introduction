@@ -5,6 +5,8 @@ Scanner is also a non primitive data type in java .
 1st line of the code is the package name in which we are writing the code.
 After writing the java source code when the compiler gets to compile it, it would convert it to byte code(.class) which every system would understand.
 
+Some part of the java code are stored in the form of stack and some are stored in a heap .
+
 ////Function////
     That part of the code to which we call to perform the work.
 Function is the block of code which takes an input ,perform an operation and produces an output .
@@ -78,12 +80,11 @@ It checks the condition after executing once .
 
 /// String///
 
-It is a non-primitive data type .
+It is a non-primitive data type, and also are immutable .
 Length of a  string variable is determined by the .length() function.
 To see the character of a specific index we use .charAt() ufnction.
 To replace a character in a string we use .replace() function.  - This function won't change the original string but will reflect the changes in the new string.
-To take input from the user we write System.in and we write sc.next() to take a input as a string(word) and not a sentence .
-In java strings are immutable.
+To take input from the user we write System.in and we write sc.next() to take a input as a string(word) and not a sentence . 
 
 We can get a part of a large string by using the .substring() function.  - Inside the parenthesis there would be a lower limit and a upper limit, the lower limit would be included but upper limit wouldn't. It would be upper limit-1.
 If we give only one index value it will be considered as the starting index and it will print the string to the end .  
@@ -102,6 +103,15 @@ We can give inputs by
         String name = sc.next();
         System.out.println(name);
     - Here next() takes only the first token(word) . To print the full sentence we need to replace next() by nextLine() . There are many more .
+
+
+//// String Builders ////
+
+This class does the operations of add, delete etc and doesn't take time too . So whenever we need to modify the strings then we use string builder and not string .
+Some part of the java code are stored in the form of stack and some are stored in a heap, in case of strings the variable name is stored in a stack and the value is stored in the heap, and the variable would be pointing towards the heap value .
+If we modify the strings in the heap it makes another string, that the variable would point at, it will take a specific amount of time which is not good for the user sitting in the system .
+String builders resolve the problem by just updating the previous string because of which it is taking less amount of time .
+
 
 ///Arrays///
 
