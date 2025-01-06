@@ -7,6 +7,7 @@ After writing the java source code when the compiler gets to compile it, it woul
 
 Some part of the java code are stored in the form of stack and some are stored in a heap .
 
+
 ////Function////
     That part of the code to which we call to perform the work.
 Function is the block of code which takes an input ,perform an operation and produces an output .
