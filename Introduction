@@ -113,6 +113,9 @@ Some part of the java code are stored in the form of stack and some are stored i
 If we modify the strings in the heap it makes another string, that the variable would point at, it will take a specific amount of time which is not good for the user sitting in the system .
 String builders resolve the problem by just updating the previous string because of which it is taking less amount of time .
 
+The only difference between string and string builder is that strings are immutable whereas string builders are mutable .
+You can do many operations in string builders like you can replace, delete  or append a character .
+
 
 ///Arrays///
 
@@ -151,9 +154,10 @@ We can make constants in java by the final keyword and after  declaring that we 
 /////Operators/////
 
 There are four types of operators in java:
-    Arithmatic operator(+,-,*,/,%(Modulo))
-    Assignment operator(=,+=,-=,*=,/=,%=), Unary operator(++,-- )
-    Logical operator
+    Arithmatic operator(+,-,*,/,%(Modulo)), Unary operator(++,-- )
+    Relational operator(==,!=,>,<,>=,<=)
+    Assignment operator(=,+=,-=,*=,/=,%=)
+    Logical operator 
     Comparision operator
 
 There is a Math class which is used to perform any kind of mathematical concepts. Like finding the minimum or maximum numbers of given numbers.
