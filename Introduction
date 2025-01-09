@@ -169,9 +169,17 @@ The value random returns is always less than 1, so if we typecast it to int, it 
 Binary, decimal, octal and hexadecimal number systems .
 
 //// Bit Manipulation ////
+Bit masking : Manipulation of bits . We would use an additional number which is also known as bit mask .
+
 a) Get Bit
+        1) Bit mask : 1 << i (position to get), after this
+        2) Operation : AND (If the result is zero - the character is 0 and if the result is a non-zero then the character is 1)
 b) Set Bit
+        1) Bit mask : 1 << i
+        2) Operation : OR
 c) Clear Bit
+        1) Bit mask : 1 << i
+        2) Operation : AND with a NOT
 d) Update Bit
 
 ////Time Complexity////
