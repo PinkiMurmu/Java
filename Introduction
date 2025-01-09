@@ -154,10 +154,11 @@ We can make constants in java by the final keyword and after  declaring that we 
 /////Operators/////
 
 There are four types of operators in java:
-    Arithmatic operator(+,-,*,/,%(Modulo)), Unary operator(++,-- )
-    Relational operator(==,!=,>,<,>=,<=)
-    Assignment operator(=,+=,-=,*=,/=,%=)
-    Logical operator 
+    Arithmatic operator(+, -, *, /, %(Modulo), Unary operator(++,-- ))
+    Relational operator(==, !=, >, <, >=, <=)
+    Assignment operator(=, +=, -=, *=, /=, %=)
+    Logical operator (&&, ||, !)
+    Bitwise operator (&, |, ^, ~, <<, >>)
     Comparision operator
 
 There is a Math class which is used to perform any kind of mathematical concepts. Like finding the minimum or maximum numbers of given numbers.
@@ -165,6 +166,13 @@ There is a Math class which is used to perform any kind of mathematical concepts
 There is a random function in Math class which returns a random value between 0.0 to 1.0 in the form of long.
 The value random returns is always less than 1, so if we typecast it to int, it will always show 0.
 
+Binary, decimal, octal and hexadecimal number systems .
+
+//// Bit Manipulation ////
+a) Get Bit
+b) Set Bit
+c) Clear Bit
+d) Update Bit
 
 ////Time Complexity////
 -Relation between input size & Running time(operations) .
@@ -175,4 +183,5 @@ Three types:
 
 ////Space Complexity////
 -It depends on how much space is a code taking in the memory . Which is how many variables are storing because of that code .
- 
+
+
