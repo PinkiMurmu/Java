@@ -181,6 +181,10 @@ c) Clear Bit
         1) Bit mask : 1 << i
         2) Operation : AND with a NOT
 d) Update Bit
+        1) For 0: Bit Mask : 1 << i
+                Operation : AND with NOT        // set operation
+        2) For 0: Bit Mask : 1 << i
+                Operation : OR                    // Clear operation
 
 ////Time Complexity////
 -Relation between input size & Running time(operations) .
