@@ -135,7 +135,7 @@ When we are looking for the length of a string we need to put the parenthesis af
 Bu when we are checking an array length we don't need to put the parenthesis, it is the array property.
 There is a class Arrays in array in which there is a function .sort() which would sort the array in ascending order.
 
-2D arrays
+----2D arrays
 initialize by the data type and two square brackets one after another.
 Memory size of a 2d array depends on the data type of the array you declared .
 If we need to find the size of the 2d array the formula is (rows*columns)*datatypesize .
@@ -196,4 +196,6 @@ Three types:
 ////Space Complexity////
 -It depends on how much space is a code taking in the memory . Which is how many variables are storing because of that code .
 
-
+////Recursion////
+It is a function or type of iteration which calls itself.
+To know recursion we first need to know function and iteration .
