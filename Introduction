@@ -199,3 +199,6 @@ Three types:
 ////Recursion////
 It is a function or type of iteration which calls itself.
 To know recursion we first need to know function and iteration .
+
+Difference between iteration and recursion is that in iteration only one variable creates in the memory but for recursion for every function call there are variable creating .
+So if we don't give the base condition after the memory gets filled it will give a stack overflow error after which the code won't work .
