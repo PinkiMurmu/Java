@@ -6,7 +6,7 @@ public class Sum {
         return sum;
     }
 
-    public static void main(String args[]){
+    public static void main(Strings args[]){
         Scanner sc = new Scanner(System.in);
         System.out.print("Enter first number : ");
         int a = sc.nextInt();
